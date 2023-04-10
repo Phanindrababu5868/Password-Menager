@@ -1,0 +1,149 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.bg-container {
+  background-color: #9ba9eb;
+  min-height: 100vh;
+  padding-top: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 20px;
+}
+
+.password-manager-logo {
+  height: 50px;
+  width: 150px;
+  align-self: flex-start;
+  margin-left: 120px;
+}
+
+.first-part {
+  background-color: #5763a5;
+  border-radius: 5px;
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin-top: 10px;
+}
+
+.website-img {
+  height: 400px;
+  width: 400px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #454f84;
+  padding: 10px;
+  border-radius: 5px;
+  width: 40%;
+  color: white;
+}
+
+.input {
+  width: 100%;
+  height: 30px;
+  outline: none;
+  border: none;
+}
+
+.btn {
+  width: 80px;
+  background-color: blue;
+  border: none;
+  color: white;
+  padding: 5px;
+  align-self: flex-end;
+}
+
+.website-logo {
+  display: flex;
+  background-color: white;
+  align-items: center;
+  border: 1px solid gray;
+}
+
+.logo {
+  height: 20px;
+  width: 20px;
+}
+
+.second-part {
+  background-color: #5763a5;
+  border-radius: 5px;
+  padding: 10px;
+  width: 80%;
+  margin-top: 10px;
+  color: white;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search-box {
+  width: 200px;
+}
+
+.password {
+  font-size: 20px;
+}
+
+.check-box {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.chek {
+  width: 20px;
+  height: 20px;
+}
+
+.list-items {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.password-count {
+  display: flex;
+  width: 180px;
+  justify-content: space-between;
+}
+
+input {
+  outline: none;
+  border: none;
+}
+
+.no-password {
+  height: 300px;
+  width: 300px;
+}
+
+.no-password-image {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
